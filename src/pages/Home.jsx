@@ -4,7 +4,7 @@ import theme from '../assets/MuiTheme'
 import { Grid, Typography } from '@mui/material'
 import KeyUp from '@mui/icons-material/KeyboardDoubleArrowUp';
 import KeyDown from '@mui/icons-material/KeyboardDoubleArrowDown';
-import Lines from "../assets/Lines"
+import Lines from "../assets/svg/Lines"
 
 const Home = () => {
     return (

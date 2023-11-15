@@ -23,10 +23,10 @@ const theme = createTheme({
             fontSize: "calc(1em + 1vw)",
         },
         h4: {
-            fontSize: "calc(0.8em + 0.8vw)",
+            fontSize: "calc(0.9em + 0.8vw)",
         },
         h5: {
-            fontSize: "calc(0.8em + 0.8vw)"
+            fontSize: "calc(0.7em + 0.6vw)"
         },
         h6: {
             fontSize: "calc(0.5em + 0.5vw)",
