@@ -9,15 +9,12 @@ import Google from "../components/Google"
 const Studies = () => {
     return (
         <ThemeProvider theme={theme}>
-            <Grid container id="studies" alignContent="space-evenly" sx={{ justifyContent: { xs: "center", sm: "space-evenly" }, backgroundColor: "#4831d4" }} >
+            <Grid container id="studies" alignContent="space-evenly" pt={10} sx={{ justifyContent: { xs: "center", sm: "space-evenly" }, backgroundColor: "#4831d4" }} >
 
                 <Grid item xs={11} sm={10} display="flex" flexWrap="wrap" justifyContent="space-evenly" mt={5} mb={5}>
                     <Grid item xs={12} sm={4}>
                         <Typography variant="h1" fontWeight={800} color="secondary">
-                            Over the
-                        </Typography>
-                        <Typography variant="h1" fontWeight={800} color="secondary" mb={4} >
-                            years,
+                            Over the years,
                         </Typography>
 
                         <Typography variant="h5" color="white" fontWeight={400} mb={2} p={1}>
@@ -36,14 +33,14 @@ const Studies = () => {
                             I'm looking forward to the opportunity to be part of a dynamic team and help transform ideas into digital reality.
                             Let's create the web of the future together!
                         </Typography>
+
+                        <img src={Pic} style={{ width: "100%", height: "auto" }} />
                     </Grid>
 
 
-                    <Grid item xs={12} sm={7}>
-                        <img src={Pic} style={{ width: "100%", height: "auto" }} />
+                    <Grid item xs={12} sm={7} sx={{ background: "#f9f9f9" }} borderRadius={3}>
                         <Google />
                     </Grid>
-
 
                 </Grid>
 

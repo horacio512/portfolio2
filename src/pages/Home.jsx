@@ -13,7 +13,7 @@ const Home = () => {
             <Grid container id="home" alignContent="center" pt={8}
                 sx={{ justifyContent: { xs: "center", sm: "center" }, background: { xs: "linear-gradient(180deg, #4831d4 70%, #ccf381 30%)", sm: "linear-gradient(90deg, #4831d4 67%, #ccf381 33%)" } }} >
 
-                <Grid xs={10} pb={4} mb={4} display="flex">
+                <Grid item xs={10} pb={4} mb={4} display="flex">
 
                     <KeyUp fontSize="large" color="secondary" sx={{ cursor: "pointer" }} />
                     <KeyDown fontSize="large" color="secondary" sx={{ cursor: "pointer" }} />
@@ -40,7 +40,7 @@ const Home = () => {
 
 
                 <Grid item xs={6} sm={3} pb={6} mb={2} >
-                    <img src="https://i.ibb.co/s2yngyj/IMG-20220219-WA0036.jpg" width="100%" height="auto" />
+                    <img src="https://i.ibb.co/pLzWjhK/back.webp" width="100%" height="auto" />
                 </Grid>
 
                 <Grid item xs={0} sm={1} sx={{ display: { xs: "none", sm: "flex" } }}>

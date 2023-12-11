@@ -8,7 +8,7 @@ import Lines from "../assets/svg/Lines"
 const About = () => {
     return (
         <ThemeProvider theme={theme}>
-            <Grid container id="about" height="98vh" justifyContent="center" mt={4} sx={{backgroundColor: "#f9f9f9"}} >
+            <Grid container id="about" height="100vh" justifyContent="center" mt={4} sx={{backgroundColor: "#f9f9f9"}} >
 
                 <Grid item xs={12} sm={10} pt={4} display="flex" flexDirection="column" justifyContent="space-around">
                     <Grid container sx={{ justifyContent: { xs: "center", sm: "space-between" } }} pb={4}>
