@@ -5,6 +5,7 @@ import About from "./pages/About"
 import Studies from "./pages/Studies"
 import Mywork from "./pages/Mywork"
 import Footer from "./pages/Footer"
+import Contact from "./pages/Contact"
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Studies />
       <Mywork />
+      <Contact />
       <Footer />
     </BrowserRouter>
   )

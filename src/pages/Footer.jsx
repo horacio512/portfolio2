@@ -6,8 +6,6 @@ import { Button, Grid, Typography } from '@mui/material'
 const Footer = () => {
 
 
-  const notMove = () => { setDeco("none") }
-
   return (
     <ThemeProvider theme={theme} >
       <Grid container height="100vh" sx={{ background: "#3d155f" }} justifyContent="center" >

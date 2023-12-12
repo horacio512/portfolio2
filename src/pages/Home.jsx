@@ -21,12 +21,13 @@ const Home = () => {
                 </Grid>
 
 
-                <Grid item xs={10} sm={5} textAlign="start" pb={6} >
+                <Grid item xs={10} sm={5} textAlign="start" pb={6}>
 
                     <Typography variant="h1" color="secondary" fontWeight={900} sx={{ lineHeight: 1.1 }} >Frontend</Typography>
                     <Typography mb={2} variant="h1" color="secondary" fontWeight={900} sx={{ lineHeight: 1.1 }}>Developer.</Typography>
-                    <Typography mb={6} variant="h5" color="white" >I like to craft solid and scalable frontend products with great user experiences.</Typography>
-
+                    <Grid item xs={12} sm={10}>
+                        <Typography mb={6} variant="h5" color="white" >I like to craft solid and scalable frontend products with great user experiences.</Typography>
+                    </Grid>
 
                     <Grid item xs={5} mt={4}>
                         <Typography color="secondary" variant="h6">Highly skilled at progressive enhancement, design systems & UI Engineering.</Typography>
