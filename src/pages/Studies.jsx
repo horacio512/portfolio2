@@ -38,7 +38,7 @@ const Studies = () => {
                     </Grid>
 
 
-                    <Grid item xs={12} sm={7} sx={{ background: "#f9f9f9" }} borderRadius={3}>
+                    <Grid item xs={12} sm={7} >
                         <Google />
                     </Grid>
 

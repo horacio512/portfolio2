@@ -3,6 +3,7 @@ import { ThemeProvider } from '@emotion/react'
 import theme from '../assets/MuiTheme'
 import { Grid, Typography } from '@mui/material'
 import TypingText from "../components/TypingText"
+import Pic from "../assets/back.png"
 
 /*Icons*/
 import SearchIcon from '@mui/icons-material/Search';
@@ -19,7 +20,8 @@ const Google = () => {
 
     return (
         <ThemeProvider theme={theme}>
-            <Grid container justifyContent="center" pb={3}>
+            <Grid container justifyContent="center"  display="flex" sx={{ background: "#f9f9f9" }} borderRadius={3} pb={5} >
+
 
                 <Grid item xs={12} display="flex" justifyContent="end" mt={1}>
 
