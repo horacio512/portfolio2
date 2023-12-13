@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { ThemeProvider } from '@emotion/react'
 import theme from '../assets/MuiTheme'
 import { Button, Grid, Typography } from '@mui/material'
@@ -8,7 +8,7 @@ const Footer = () => {
 
   return (
     <ThemeProvider theme={theme} >
-      <Grid container height="100vh" sx={{ background: "#3d155f" }} justifyContent="center" >
+      <Grid container height="100vh" id="footer" sx={{ background: "#3d155f" }} justifyContent="center" >
 
         <Grid item xs={11} sm={10}>
           <Typography variant="h4" mt="18%" letterSpacing={2} color="white" fontWeight={300}>SAY HELLO</Typography>
