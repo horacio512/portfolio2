@@ -23,8 +23,7 @@ const Studies = () => {
                         </Typography>
 
                         <Typography variant="h5" color="white" fontWeight={400} mb={2} p={1}>
-                            With a strong foundation in HTML, CSS, JavaScript, and React I am committed
-                            to learning and growing my skills to create dynamic and user-friendly websites. My enthusiasm for problem-solving
+                            My enthusiasm for problem-solving
                             and attention to detail drive me to craft visually appealing, responsive, and interactive web solutions.
                         </Typography>
 

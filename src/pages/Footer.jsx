@@ -27,6 +27,7 @@ const Footer = () => {
           <Button color="secondary" href="https://github.com/horacio512" target="_blank"><Typography variant="h4" color="secondary" fontWeight={300}>Github</Typography></Button>
           <Button color="secondary" href="https://www.youtube.com/channel/UChZil2lXphSE02LR67HwF0g" target="_blank"><Typography variant="h4" color="secondary" fontWeight={300}>Youtube</Typography></Button>
 
+
         </Grid>
 
         <Grid item xs={11} sm={10}>
