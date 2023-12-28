@@ -2,8 +2,6 @@ import React from 'react'
 import { ThemeProvider } from '@emotion/react'
 import theme from '../assets/MuiTheme'
 import { Grid, Typography } from '@mui/material'
-import KeyUp from '@mui/icons-material/KeyboardDoubleArrowUp';
-import KeyDown from '@mui/icons-material/KeyboardDoubleArrowDown';
 import Lines from "../assets/svg/Lines"
 
 const Home = () => {
@@ -12,14 +10,6 @@ const Home = () => {
 
             <Grid container id="home" alignContent="center" pt={8}
                 sx={{ justifyContent: { xs: "center", sm: "center" }, background: { xs: "linear-gradient(180deg, #4831d4 70%, #ccf381 30%)", sm: "linear-gradient(90deg, #4831d4 67%, #ccf381 33%)" } }} >
-
-                <Grid item xs={10} pb={4} mb={4} display="flex">
-
-                    <KeyUp fontSize="large" color="secondary" sx={{ cursor: "pointer" }} />
-                    <KeyDown fontSize="large" color="secondary" sx={{ cursor: "pointer" }} />
-
-                </Grid>
-
 
                 <Grid item xs={10} sm={5} textAlign="start" pb={6}>
 
