@@ -8,14 +8,15 @@ const Home = () => {
     return (
         <ThemeProvider theme={theme}>
 
-            <Grid container id="home" alignContent="center" pt={8}
+            <Grid container id="home" alignContent="center" pt={20} pb={8}
                 sx={{ justifyContent: { xs: "center", sm: "center" }, background: { xs: "linear-gradient(180deg, #4831d4 70%, #ccf381 30%)", sm: "linear-gradient(90deg, #4831d4 67%, #ccf381 33%)" } }} >
 
                 <Grid item xs={10} sm={5} textAlign="start" pb={6}>
 
                     <Typography variant="h1" color="secondary" fontWeight={900} sx={{ lineHeight: 1.1 }} >Frontend</Typography>
                     <Typography mb={2} variant="h1" color="secondary" fontWeight={900} sx={{ lineHeight: 1.1 }}>Developer.</Typography>
-                    <Grid item xs={12} sm={10}>
+
+                    <Grid item xs={12} sm={10} mt={4}>
                         <Typography mb={6} variant="h5" color="white" >I like to craft solid and scalable frontend products with great user experiences.</Typography>
                     </Grid>
 
