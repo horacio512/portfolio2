@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { ThemeProvider } from '@emotion/react'
 import theme from '../assets/MuiTheme'
-import { Button, Fade, Grid, TextField, Typography } from '@mui/material'
+import { Button, Grid, TextField, Typography } from '@mui/material'
 import emailjs from "@emailjs/browser"
 
 

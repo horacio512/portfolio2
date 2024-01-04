@@ -1,14 +1,16 @@
-import React from 'react'
 import { ThemeProvider } from '@emotion/react'
 import theme from '../assets/MuiTheme'
 import { Grid, Typography } from '@mui/material'
 import Lines from "../assets/svg/Lines"
+import NavBar from '../components/NavBar'
 
 const Home = () => {
     return (
         <ThemeProvider theme={theme}>
 
-            <Grid container id="home" alignContent="center" pt={20} pb={8}
+            <NavBar />
+
+            <Grid container id="home" alignContent="center" pt={15} pb={8}
                 sx={{ justifyContent: { xs: "center", sm: "center" }, background: { xs: "linear-gradient(180deg, #4831d4 70%, #ccf381 30%)", sm: "linear-gradient(90deg, #4831d4 67%, #ccf381 33%)" } }} >
 
                 <Grid item xs={10} sm={5} textAlign="start" pb={6}>

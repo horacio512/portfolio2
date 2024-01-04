@@ -1,4 +1,3 @@
-import React from 'react'
 import { ThemeProvider } from '@emotion/react'
 import theme from '../assets/MuiTheme'
 import { Grid, Typography } from '@mui/material'
@@ -8,7 +7,7 @@ import Lines from "../assets/svg/Lines"
 const About = () => {
     return (
         <ThemeProvider theme={theme}>
-            <Grid container id="about" height="100vh" justifyContent="center" mt={4} sx={{backgroundColor: "#f9f9f9"}} >
+            <Grid container id="about" height="100vh" justifyContent="center" mt={4} sx={{ backgroundColor: "#f9f9f9" }} >
 
                 <Grid item xs={12} sm={10} pt={4} display="flex" flexDirection="column" justifyContent="space-around">
                     <Grid container sx={{ justifyContent: { xs: "center", sm: "space-between" } }} pb={4}>
@@ -16,9 +15,9 @@ const About = () => {
 
                             <Typography variant="h1" mb={3} color="primary" fontWeight={800}>Self Taught</Typography>
                             <Typography variant="h5" color="primary" sx={{ textAlign: { xs: "start" } }} >
-                                I'm a self-taught web developer on a relentless journey of exploration
+                                I&apos;m a self-taught web developer on a relentless journey of exploration
                                 and innovation in the ever-evolving digital landscape.
-                                I've embarked on this incredible adventure to not only master the art of
+                                I&apos;ve embarked on this incredible adventure to not only master the art of
                                 web development but to harness the ability to turn ideas into functional, elegant, and impactful online experiences.
                             </Typography>
 
