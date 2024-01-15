@@ -2,6 +2,7 @@ import { ThemeProvider } from '@emotion/react'
 import theme from '../assets/MuiTheme'
 import { Grid, Typography } from '@mui/material'
 import Lines from "../assets/svg/Lines"
+import Square from "../assets/svg/Square"
 import NavBar from '../components/NavBar'
 
 const Home = () => {
@@ -34,7 +35,7 @@ const Home = () => {
 
 
                 <Grid item xs={6} sm={3} pb={6} mb={2} >
-                    <img src="https://i.ibb.co/pLzWjhK/back.webp" width="100%" height="auto" />
+                    <img src="https://i.ibb.co/pLzWjhK/back.webp" width="100%" height="auto" alt="picture about me" title="me" loading="eager"/>
                 </Grid>
 
                 <Grid item xs={0} sm={1} sx={{ display: { xs: "none", sm: "flex" } }}>

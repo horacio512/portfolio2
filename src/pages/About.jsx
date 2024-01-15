@@ -39,7 +39,7 @@ const About = () => {
                             <Typography variant="h5" color="primary" sx={{ textAlign: { xs: "start", sm: "start" } }} >
                                 As a web developer, I am dedicated to turning concepts into reality, creating seamless and engaging websites
                                 that leave a lasting impression. This portfolio is a showcase of my journey through the
-                                intricacies of front-end and back-end development, where innovation and functionality meet to build the web of tomorrow.
+                                intricacies of front-end development, where innovation and functionality meet to build the web of tomorrow.
                             </Typography>
 
                         </Grid>

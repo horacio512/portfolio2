@@ -33,7 +33,7 @@ const Studies = () => {
                             Let's create the web of the future together!
                         </Typography>
 
-                        <img src={Pic} style={{ width: "100%", height: "auto" }} />
+                        <img src={Pic} style={{ width: "100%", height: "auto" }} loading='lazy' title="computer guy" alt="some dude in a desk" />
                     </Grid>
 
 

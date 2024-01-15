@@ -4,8 +4,9 @@ import theme from '../assets/MuiTheme'
 import { Grid, Link, Typography } from '@mui/material'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import YouTubeIcon from '@mui/icons-material/YouTube';
-import logo1 from "../assets/log1.jpg"
-import logo2 from "../assets/log2.png"
+import logo1 from "../assets/log11.png"
+import logo2 from "../assets/log12.png"
+import logo3 from "../assets/log13.png"
 
 
 const Mywork = () => {
@@ -14,7 +15,10 @@ const Mywork = () => {
     const info = [{
         name: logo1, yt: "https://www.youtube.com/embed/RUwC0CJFmJY?si=7cc88kw8nBgVLLeV", github: "https://github.com/horacio512/toque-dulce", live: "https://toquedulce.com", descr: "Responsive site for a small family business. "
     }, { name: logo2, yt: "https://www.youtube.com/embed/iXD_PF_tMQY?si=Jx2aroXQ7i0iapWB", github: "https://github.com/horacio512/velasviendo", live: "https://github.com/horacio512/velasviendo", descr: "Shopping web for candles, with fully functional cart." }
+    ,{name: logo3,yt: "empty", github:"https://github.com/horacio512/meal-app",live: "https://horacio512.github.io/meal-app/", descr: "App to make your own daily diet, conntected to the Spoonacular API"}
     ]
+
+    const [show, setShow] = useState()
 
     return (
         <ThemeProvider theme={theme}>
@@ -31,13 +35,13 @@ const Mywork = () => {
                         {
                             info.map((data, index) => (
 
-                                <Grid container item={true} xs={12} sm={4} key={index} display="flex" justifyContent="space-evenly" alignContent="center"
+                                <Grid container item={true} xs={12} sm={5} key={index} display="flex" justifyContent="space-evenly" alignContent="center"
                                     mt={2} p={1} mb={1} sx={{ backgroundColor: "#f9f9f9" }} borderRadius={2}>
 
 
                                     <Grid item xs={12} display="flex" justifyContent="center" alignItems="center" mb={3}>
                                         <Link href={data.live} target="_blank">
-                                            <img src={data.name} style={{ width: "100%", height: "9vh" }} />
+                                            <img src={data.name} style={{ width: "100%", height: "auto"}} loading='lazy' alt="sample" title={data.descr} />
                                         </Link>
                                     </Grid>
 
