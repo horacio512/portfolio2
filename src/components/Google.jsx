@@ -3,14 +3,13 @@ import { ThemeProvider } from '@emotion/react'
 import theme from '../assets/MuiTheme'
 import { Grid, Typography } from '@mui/material'
 import TypingText from "../components/TypingText"
-import Pic from "../assets/back.png"
 
 /*Icons*/
 import SearchIcon from '@mui/icons-material/Search';
 import MicNoneIcon from '@mui/icons-material/MicNone';
 import CameraAltIcon from '@mui/icons-material/CameraAlt';
 import ReactIcon from "../assets/svg/React"
-import JavascriptIcon from "../assets/svg/Javascript"
+import JavascriptIcon from "../assets/Javascript"
 import MuiIcon from "../assets/svg/Mui"
 import HtmlIcon from "../assets/svg/Html"
 import CssIcon from "../assets/svg/Css"
@@ -20,7 +19,7 @@ const Google = () => {
 
     return (
         <ThemeProvider theme={theme}>
-            <Grid container justifyContent="center"  display="flex" sx={{ background: "#f9f9f9" }} borderRadius={3} pb={5} >
+            <Grid container justifyContent="center" display="flex" sx={{ background: "#f9f9f9" }} borderRadius={3} pb={5} >
 
 
                 <Grid item xs={12} display="flex" justifyContent="end" mt={1}>

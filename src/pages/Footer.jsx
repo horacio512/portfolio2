@@ -31,7 +31,7 @@ const Footer = () => {
         </Grid>
 
         <Grid item xs={11} sm={10}>
-          <Typography variant="h4" textAlign="end" color="secondary" fontWeight={300}>© Horacio Garcia 2023</Typography>
+          <Typography variant="h4" textAlign="end" color="secondary" fontWeight={300}>© Horacio Garcia 2024</Typography>
         </Grid>
 
       </Grid>

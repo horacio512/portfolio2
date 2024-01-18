@@ -47,7 +47,7 @@ interface CustomStyles extends React.CSSProperties {
 }
 
 function Typewriter() {
-  const text = "some of the tools i had work with";
+  const text = "some of the technologies i've work on ";
 
   const styles: CustomStyles = {
     "--characters": text.length

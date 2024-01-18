@@ -31,8 +31,8 @@ const NavBar = () => {
 
                     }} open={openDrawer} onClose={() => drawerStatus(false)} >
                         {
-                            names.map((data) => (
-                                <Button> <HashLink smooth to={`#${data.direction}`} onClick={() => drawerStatus(false)} >
+                            names.map((data, index) => (
+                                <Button key={index}> <HashLink smooth to={`#${data.direction}`} onClick={() => drawerStatus(false)} >
                                     <Typography variant="h5" color="primary" fontWeight={500} p={2.5} textTransform="capitalize" >{data.direction}</Typography>
                                 </HashLink></Button>
                             ))
