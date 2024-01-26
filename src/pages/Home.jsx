@@ -20,7 +20,10 @@ const Home = () => {
                     <Typography mb={2} variant="h1" color="secondary" fontWeight={900} sx={{ lineHeight: 1.1 }}>Developer.</Typography>
 
                     <Grid item xs={12} sm={10} mt={4}>
-                        <Typography mb={6} variant="h5" color="white" >I like to craft solid and scalable frontend products with great user experiences.</Typography>
+                        <Typography mb={6} variant="h5" color="white" >           <Grid item xs={12} sm={10} mt={4}>
+                            <Typography mb={6} variant="h5" color="white" >Transforming visions into reality through intuitive and responsive front-end development</Typography>
+                        </Grid>
+                        </Typography>
                     </Grid>
 
                     <Grid item xs={5} mt={4}>
@@ -35,7 +38,7 @@ const Home = () => {
 
 
                 <Grid item xs={6} sm={3} pb={6} mb={2} >
-                    <img src="https://i.ibb.co/pLzWjhK/back.webp" width="100%" height="auto" alt="picture about me" title="me" loading="eager"/>
+                    <img src="https://i.ibb.co/pLzWjhK/back.webp" width="100%" height="auto" alt="picture about me" title="me" loading="eager" />
                 </Grid>
 
                 <Grid item xs={0} sm={1} sx={{ display: { xs: "none", sm: "flex" } }}>

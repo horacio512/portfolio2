@@ -12,9 +12,9 @@ function App() {
   return (
     <BrowserRouter>
       <Home />
-      <About />
-      <Studies />
       <Mywork />
+      <Studies />
+      <About />
       <Contact />
       <Footer />
     </BrowserRouter>
