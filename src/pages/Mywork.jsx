@@ -36,9 +36,9 @@ const Mywork = () => {
 
     return (
         <ThemeProvider theme={theme}>
-            <Grid container id="mywork" justifyContent="center" mt={4} sx={{ backgroundColor: "#f9f9f9" }} >
+            <Grid container id="my work" justifyContent="center" mt={4} sx={{ backgroundColor: "#f9f9f9" }} >
 
-                <Grid container xs={11} item={true} marginTop="4%" sx={{ backgroundColor: "#ffffff" }} p={2}>
+                <Grid container xs={11} sm={10} item={true} marginTop="4%" sx={{ backgroundColor: "#ffffff" }} p={2}>
 
                     <Grid item xs={11} sm={12} mb={6}>
                         <Typography variant="h1" color="primary" fontWeight={800} >Some of my Projects</Typography>

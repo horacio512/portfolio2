@@ -17,7 +17,7 @@ const NavBar = () => {
         setOpenDrawer(data)
     }
 
-    const names = [{ direction: "home" }, { direction: "about" }, { direction: "studies" }, { direction: "mywork" },
+    const names = [{ direction: "home" }, { direction: "my work" }, { direction: "studies" }, { direction: "about" },
     { direction: "contact" },]
 
     return (
@@ -25,7 +25,7 @@ const NavBar = () => {
             <Box position="fixed" top={0} right={0}>
 
                 <Grid container display="flex" justifyContent="end">
-                    <Button onClick={() => drawerStatus(true)} ><MenuIcon color="action" fontSize="large" /></Button>
+                    <Button onClick={() => drawerStatus(true)} ><MenuIcon color="secondary" fontSize="large" /></Button>
 
                     <Drawer disableScrollLock={true} anchor="right" PaperProps={{
                         sx: { height: '80vh', top: "10%", right: "5%" },

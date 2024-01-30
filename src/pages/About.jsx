@@ -23,7 +23,7 @@ const About = () => {
 
                         </Grid>
 
-                        <Grid item sm={4} sx={{ display: { xs: "none", sm: "flex" } }}>
+                        <Grid item sm={4} xs={8} display="flex">
                             <SquareR />
                         </Grid>
                     </Grid>
