@@ -36,9 +36,9 @@ const Mywork = () => {
 
     return (
         <ThemeProvider theme={theme}>
-            <Grid container id="my work" justifyContent="center" mt={4} sx={{ backgroundColor: "#f9f9f9" }} >
+            <Grid container id="my work" justifyContent="center" mt={4} sx={{ backgroundColor: "#f9f9f9" }} mb={3} >
 
-                <Grid container xs={11} sm={10} item={true} marginTop="4%" sx={{ backgroundColor: "#ffffff" }} p={2}>
+                <Grid container xs={11} sm={10} item={true} marginTop="4%">
 
                     <Grid item xs={11} sm={12} mb={6}>
                         <Typography variant="h1" color="primary" fontWeight={800} >Some of my Projects</Typography>
@@ -51,12 +51,12 @@ const Mywork = () => {
 
                                 < Grid container item={true} xs={12} sm={5} key={index} onMouseEnter={() => { over(index) }} onMouseLeave={() => { leave() }}
                                     display="flex" justifyContent="space-evenly" alignContent="center"
-                                    mt={2} p={1} mb={1} sx={{ backgroundColor: "#ededed" }} borderRadius={2}>
+                                    mt={2} mb={1} border={1} borderRadius="2%" borderColor="#4831d4">
 
 
-                                    <Grid item xs={12} display="flex" justifyContent="center" alignItems="center" mb={3}>
+                                    <Grid item xs={12} display="flex" justifyContent="center" alignItems="center" mb={2}>
                                         <Link href={data.live} target="_blank" sx={{ opacity: show === index ? ("0.8") : ("1") }}>
-                                            <img src={data.name} style={{ width: "100%", height: "auto" }} loading='lazy' alt="sample" title={data.descr} />
+                                            <img src={data.name} style={{ width: "100%", height: "auto",borderRadius: "2%"  }} loading='lazy' alt="sample" title={data.descr} />
                                         </Link>
                                     </Grid>
 

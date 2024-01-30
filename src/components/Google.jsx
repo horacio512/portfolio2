@@ -2,14 +2,11 @@ import React from 'react'
 import { ThemeProvider } from '@emotion/react'
 import theme from '../assets/MuiTheme'
 import { Grid, Typography } from '@mui/material'
-import TypingText from "../components/TypingText"
 
 /*Icons*/
 import SearchIcon from '@mui/icons-material/Search';
-import MicNoneIcon from '@mui/icons-material/MicNone';
-import CameraAltIcon from '@mui/icons-material/CameraAlt';
 import ReactIcon from "../assets/svg/React"
-import JavascriptIcon from "../assets/Javascript"
+import JavascriptIcon from "../assets/svg/Javascript"
 import MuiIcon from "../assets/svg/Mui"
 import HtmlIcon from "../assets/svg/Html"
 import CssIcon from "../assets/svg/Css"
@@ -54,64 +51,58 @@ const Google = () => {
                 </Grid>
 
 
-                <Grid item xs={12} md={11} lg={10} border={1} borderColor="#E5E4E2" borderRadius={3} display="flex" justifyContent="space-between" alignItems="center" p={1.5} mt={1}>
+                <Grid item xs={12} md={11} border={1} borderColor="#E5E4E2" borderRadius={3} display="flex" justifyContent="space-around" alignItems="center" p={1.5} mt={1}>
 
-                    <Grid item xs={2} textAlign="center">
+                    <Grid item xs={4} display="flex" justifyContent="space-evenly">
                         <SearchIcon />
+                        <Typography variant='h4'>Technologies</Typography>
                     </Grid>
 
-                    <Grid item xs={12} display="flex" justifyContent="start">
-                        <TypingText />
-                    </Grid>
-
-                    <Grid item xs={1} textAlign="end">
-                        <MicNoneIcon />
-                    </Grid>
-
-                    <Grid item xs={1} textAlign="center">
-                        <CameraAltIcon />
+                    <Grid item xs={4} display="flex" justifyContent="space-evenly">
+                        <SearchIcon />
+                        <Typography variant='h4'>Soft Skills</Typography>
                     </Grid>
 
                 </Grid>
 
-                <Grid container xs={10} item={true} display="flex" justifyContent="center" alignItems="center" border={1} borderColor="#E5E4E2" borderRadius={3}  >
+                <Grid container xs={6} item={true} display="flex" justifyContent="center" alignItems="center" border={1} borderColor="#E5E4E2" borderRadius={3}  >
 
-                    <Grid item xs={7} p={1} mt={1} display="flex" alignItems="center">
+                    <Grid item xs={12} p={1} mt={1} display="flex" justifyContent="center" alignItems="center">
                         <ReactIcon fontSize={35} />
                         <Typography variant="h4" ml={2}>
-                            React
+                            React JS
                         </Typography>
                     </Grid>
 
-                    <Grid item xs={7} p={1} mt={1} display="flex" alignItems="center">
+                    <Grid item xs={12} p={1} mt={1} display="flex" alignItems="center" justifyContent="center" >
                         <JavascriptIcon fontSize={35} style={{ backgroundColor: "#323330" }} />
                         <Typography variant="h4" ml={2}>
                             Javascript
                         </Typography>
                     </Grid>
 
-                    <Grid item xs={7} p={1} mt={1} display="flex" alignItems="center">
+                    <Grid item xs={12} p={1} mt={1} display="flex" alignItems="center" justifyContent="center">
                         <MuiIcon fontSize={35} />
                         <Typography variant="h4" ml={2}>
                             Material UI
                         </Typography>
                     </Grid>
 
-                    <Grid item xs={7} p={1} mt={1} display="flex" alignItems="center">
+                    <Grid item xs={12} p={1} mt={1} display="flex" alignItems="center" justifyContent="center">
                         <HtmlIcon fontSize={35} />
                         <Typography variant="h4" ml={2}>
                             HTML
                         </Typography>
                     </Grid>
 
-                    <Grid item xs={7} p={1} mt={1} display="flex" alignItems="center">
+                    <Grid item xs={12} p={1} mt={1} display="flex" alignItems="center" justifyContent="center">
                         <CssIcon fontSize={35} />
                         <Typography variant="h4" ml={2}>
                             CSS
                         </Typography>
                     </Grid>
 
-                    <Grid item xs={7} p={1} mt={1} display="flex" alignItems="center">
+                    <Grid item xs={12} p={1} mt={1} display="flex" alignItems="center" justifyContent="center">
                         <GitIcon fontSize={35} />
                         <Typography variant="h4" ml={2}>
                             Git
@@ -119,6 +110,15 @@ const Google = () => {
                     </Grid>
                 </Grid>
 
+                <Grid container xs={6} item={true} display="flex" justifyContent="center" alignItems="center" border={1} borderColor="#E5E4E2" borderRadius={3}>
+
+                    <Grid item xs={12} p={1} mt={1} display="flex" alignItems="center">
+
+                        <Typography variant="h4" ml={2}>
+                            Team Work
+                        </Typography>
+                    </Grid>
+                </Grid>
 
             </Grid>
 

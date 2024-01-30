@@ -14,7 +14,7 @@ const Studies = () => {
                 <Grid item xs={11} sm={10} display="flex" flexWrap="wrap" justifyContent="space-evenly" mt={5} mb={5}>
                     <Grid item xs={12} sm={5}>
                         <Typography variant="h1" fontWeight={800} mb={3} color="secondary">
-                            Over the years,
+                            Over the years.
                         </Typography>
 
 

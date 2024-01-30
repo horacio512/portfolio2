@@ -42,11 +42,11 @@ const NavBar = () => {
                         <Box display="flex" alignItems="center" justifyContent="space-between" mt={2} flexDirection="column">
 
                             <Box mb={3}>
-                                <Link href="https://www.linkedin.com/in/horaciogarcia/" target="_blank" color="#000000" ><GitHubIcon fontSize='large' /></Link>
+                                <Link href="https://www.linkedin.com/in/horaciogarcia/" target="_blank" color="#000000" ><LinkedInIcon fontSize='large' /></Link>
                             </Box>
 
                             <Box mb={3}>
-                                <Link href="https://github.com/horacio512" target="_blank" color="#000000" ><LinkedInIcon fontSize='large' /> </Link>
+                                <Link href="https://github.com/horacio512" target="_blank" color="#000000" ><GitHubIcon fontSize='large' /> </Link>
                             </Box>
 
                             <Box>

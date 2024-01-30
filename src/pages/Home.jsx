@@ -1,9 +1,8 @@
 import { ThemeProvider } from '@emotion/react'
 import theme from '../assets/MuiTheme'
-import { Grid, Typography } from '@mui/material'
-import Lines from "../assets/svg/Lines"
-import Square from "../assets/svg/Square"
+import { Button, Grid, Typography } from '@mui/material'
 import NavBar from '../components/NavBar'
+import HG from '../assets/Horacio.png'
 
 const Home = () => {
     return (
@@ -11,10 +10,10 @@ const Home = () => {
 
             <NavBar />
 
-            <Grid container id="home" alignContent="center" pt={15} pb={8}
+            <Grid container id="home" alignContent="center" pt={15} pb={4}
                 sx={{ justifyContent: { xs: "center", sm: "center" }, background: { xs: "#4831d4" } }} >
 
-                <Grid item xs={10} sm={5} textAlign="start" pb={6}>
+                <Grid item xs={10} sm={6} textAlign="start" pb={6}>
 
                     <Typography variant="h1" color="secondary" fontWeight={900} sx={{ lineHeight: 1.1 }} >Horacio Garcia.</Typography>
 
@@ -38,13 +37,13 @@ const Home = () => {
 
 
 
-                <Grid item xs={6} sm={3} pb={6} mb={2} >
-                    <img src="https://i.ibb.co/JCSv80N/Horacio-1-removebg-preview.png" width="100%" height="auto" alt="picture about me" title="me" loading="eager" />
+                <Grid item xs={6} sm={4} pb={6} mb={2} textAlign="center" >
+                    <img src={HG} width="100%" height="auto" alt="picture about me" title="me" loading="eager" />
+
+                    <Button color="secondary" variant="contained" size="large" sx={{ boxShadow: "#ccf381 0px 22px 70px 4px ", animation: "alternate 2s" }} >Download CV</Button>
                 </Grid>
 
-                <Grid item xs={0} sm={1} sx={{ display: { xs: "none", sm: "flex" } }}>
-                    <Lines />
-                </Grid>
+
 
             </Grid>
 
