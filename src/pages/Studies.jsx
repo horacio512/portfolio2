@@ -2,7 +2,7 @@ import React from 'react'
 import { ThemeProvider } from '@emotion/react'
 import theme from '../assets/MuiTheme'
 import { Grid, Typography } from '@mui/material'
-import Pic from "../assets/back.png"
+import Pic from "../assets/images/back.png"
 import Google from "../components/Google"
 
 

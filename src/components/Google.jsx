@@ -14,6 +14,9 @@ import GitIcon from "../assets/svg/Git"
 
 const Google = () => {
 
+    const GoogleData = [{ letter: "G", color: "#4285f4" }, { letter: "o", color: "#ea4436" },
+    { letter: "o", color: "#fbbc05" }, { letter: "g", color: "#4285f4" }, { letter: "l", color: "#34a853" }, { letter: "e", color: "#ea4336" }]
+
     return (
         <ThemeProvider theme={theme}>
             <Grid container justifyContent="center" display="flex" sx={{ background: "#f9f9f9" }} borderRadius={3} pb={5} >
@@ -30,24 +33,12 @@ const Google = () => {
                 </Grid>
 
                 <Grid item xs={4} display="flex" justifyContent="center">
-                    <Typography variant="h1" fontWeight={500} color="#4285f4">
-                        G
-                    </Typography>
-                    <Typography variant="h1" fontWeight={500} color="#ea4436">
-                        o
-                    </Typography>
-                    <Typography variant="h1" fontWeight={500} color="#fbbc05">
-                        o
-                    </Typography>
-                    <Typography variant="h1" fontWeight={500} color="#4285f4">
-                        g
-                    </Typography>
-                    <Typography variant="h1" fontWeight={500} color="#34a853">
-                        l
-                    </Typography>
-                    <Typography variant="h1" fontWeight={500} color="#ea4336">
-                        e
-                    </Typography>
+
+                    {GoogleData.map((data, index) =>
+                    (
+                        <Typography key={index} variant="h1" fontWeight={500} color={data.color}>{data.letter}</Typography>
+                    ))}
+
                 </Grid>
 
 
@@ -116,6 +107,8 @@ const Google = () => {
 
                         <Typography variant="h4" ml={2}>
                             Team Work
+                            Adaptability
+                            Ability to perform under pressure
                         </Typography>
                     </Grid>
                 </Grid>

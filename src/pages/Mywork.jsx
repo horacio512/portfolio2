@@ -4,9 +4,9 @@ import theme from '../assets/MuiTheme'
 import { Box, Grid, Link, Typography } from '@mui/material'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import YouTubeIcon from '@mui/icons-material/YouTube';
-import logo1 from "../assets/log11.png"
-import logo2 from "../assets/log12.png"
-import logo3 from "../assets/log13.png"
+import logo1 from "../assets/images/log11.png"
+import logo2 from "../assets/images/log12.png"
+import logo3 from "../assets/images/log13.png"
 
 
 const Mywork = () => {
