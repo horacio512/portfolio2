@@ -109,6 +109,7 @@ const Google = () => {
                             Team Work
                             Adaptability
                             Ability to perform under pressure
+                            Delegation
                         </Typography>
                     </Grid>
                 </Grid>

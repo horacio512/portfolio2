@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { ThemeProvider } from '@emotion/react'
 import theme from '../assets/MuiTheme'
-import { Box, Grid, Link, Typography } from '@mui/material'
+import { Grid, Link, Typography } from '@mui/material'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import logo1 from "../assets/images/log11.png"
@@ -13,14 +13,14 @@ const Mywork = () => {
 
     const info = [{
         name: logo1, yt: "https://www.youtube.com/embed/RUwC0CJFmJY?si=7cc88kw8nBgVLLeV", github: "https://github.com/horacio512/toque-dulce", live: "https://toquedulce.com",
-        descr: "Responsive site for a small family business. ", tech: "React Vite MaterialUI ReactRouter EmailJS"
+        descr: "Responsive site for a small family business. ", tech: "React- Vite - MaterialUI - ReactRouter - EmailJS - Hostinger"
     }, {
-        name: logo2, yt: "https://www.youtube.com/embed/iXD_PF_tMQY?si=Jx2aroXQ7i0iapWB", tech: "React Vite MaterialUI ReactRouter Firebase",
-        github: "https://github.com/horacio512/velasviendo", live: "https://github.com/horacio512/velasviendo", descr: "Shopping web for candles, with fully functional cart."
+        name: logo2, yt: "https://www.youtube.com/embed/iXD_PF_tMQY?si=Jx2aroXQ7i0iapWB",github: "https://github.com/horacio512/velasviendo", live: "https://github.com/horacio512/velasviendo", descr: "Shopping web for candles, with fully functional cart.",
+        tech: "React - MaterialUI - ReactRouter - ReactHelmet - Firebase"
     }
         , {
         name: logo3, yt: "empty", github: "https://github.com/horacio512/meal-app", live: "https://horacio512.github.io/meal-app/",
-        descr: "App to make your own daily diet, conntected to the Spoonacular API", tech: "React Vite MaterialUI ReactRouter EmailJS"
+        descr: "App to make your own daily diet, conntected to the Spoonacular API", tech: "React - Vite - MaterialUI - ReactRouter - EmailJS"
     }
     ]
 
@@ -56,11 +56,13 @@ const Mywork = () => {
 
                                     <Grid item xs={12} display="flex" justifyContent="center" alignItems="center" mb={2}>
                                         <Link href={data.live} target="_blank" sx={{ opacity: show === index ? ("0.8") : ("1") }}>
-                                            <img src={data.name} style={{ width: "100%", height: "auto",borderRadius: "2%"  }} loading='lazy' alt="sample" title={data.descr} />
+                                            <img src={data.name} style={{ width: "100%", height: "auto", borderRadius: "2%" }} loading='lazy' alt="sample" title={data.descr} />
                                         </Link>
                                     </Grid>
 
-
+                                    <Grid item xs={11}>
+                                        <Typography variant="h5">{data.tech}</Typography>
+                                    </Grid>
                                     <Grid item xs={5} display="flex" alignItems="center" justifyContent="end" >
                                         <Link variant='text' color="#cd201f" href={data.yt} target="_blank" fontSize="6vh">
                                             <YouTubeIcon fontSize='inherit' />
