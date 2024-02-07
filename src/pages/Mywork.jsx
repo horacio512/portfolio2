@@ -19,7 +19,7 @@ const Mywork = () => {
         tech: "React - MaterialUI - ReactRouter - ReactHelmet - Firebase"
     }
         , {
-        name: logo3, yt: "empty", github: "https://github.com/horacio512/meal-app", live: "https://horacio512.github.io/meal-app/",
+        name: logo3, yt: "https://www.youtube.com/embed/h1HKIVzu-oY?si=K420kTWF_lUuyRRK", github: "https://github.com/horacio512/meal-app", live: "https://horacio512.github.io/meal-app/",
         descr: "App to make your own daily diet, conntected to the Spoonacular API", tech: "React - Vite - MaterialUI - ReactRouter - EmailJS"
     }
     ]
