@@ -13,7 +13,7 @@ const Mywork = () => {
 
     const info = [{
         name: logo1, yt: "https://www.youtube.com/embed/RUwC0CJFmJY?si=7cc88kw8nBgVLLeV", github: "https://github.com/horacio512/toque-dulce", live: "https://toquedulce.com",
-        descr: "Responsive site for a small family business. ", tech: "React- Vite - MaterialUI - ReactRouter - EmailJS - Hostinger"
+        descr: "Responsive site for a small local family business. ", tech: "React- Vite - MaterialUI - ReactRouter - EmailJS - Hostinger"
     }, {
         name: logo2, yt: "https://www.youtube.com/embed/iXD_PF_tMQY?si=Jx2aroXQ7i0iapWB",github: "https://github.com/horacio512/velasviendo", live: "https://github.com/horacio512/velasviendo", descr: "Shopping web for candles, with fully functional cart.",
         tech: "React - MaterialUI - ReactRouter - ReactHelmet - Firebase"

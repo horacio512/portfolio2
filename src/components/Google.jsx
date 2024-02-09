@@ -21,7 +21,6 @@ const Google = () => {
         <ThemeProvider theme={theme}>
             <Grid container justifyContent="center" display="flex" sx={{ background: "#f9f9f9" }} borderRadius={3} pb={5} >
 
-
                 <Grid item xs={12} display="flex" justifyContent="end" mt={1}>
 
                     <Typography variant="h6" fontWeight={300} mr={1} >
@@ -106,10 +105,9 @@ const Google = () => {
                     <Grid item xs={12} p={1} mt={1} display="flex" alignItems="center">
 
                         <Typography variant="h4" ml={2}>
-                            Team Work
-                            Adaptability
-                            Ability to perform under pressure
-                            Delegation
+                           Conflict Management
+                           Decision Making
+                           Goal Setting
                         </Typography>
                     </Grid>
                 </Grid>
