@@ -105,9 +105,11 @@ const Google = () => {
                     <Grid item xs={12} p={1} mt={1} display="flex" alignItems="center">
 
                         <Typography variant="h4" ml={2}>
-                           Conflict Management
-                           Decision Making
-                           Goal Setting
+                            Conflict Management
+                            Accountability
+                            Decision Making
+                            Adaptability
+
                         </Typography>
                     </Grid>
                 </Grid>
