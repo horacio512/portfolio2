@@ -2,7 +2,7 @@ import { ThemeProvider } from '@emotion/react'
 import theme from '../assets/MuiTheme'
 import { Button, Grid, Typography } from '@mui/material'
 import NavBar from '../components/NavBar'
-import HG from '../assets/images/Horacio.png'
+import HG from '../assets/images/hg.png'
 import "../assets/Text.css"
 
 const Home = () => {
@@ -38,10 +38,10 @@ const Home = () => {
 
 
 
-                <Grid item xs={6} sm={4} mb={6} textAlign="center" zIndex={1}  >
+                <Grid item xs={6} sm={4} mb={6} p={8}  textAlign="center" zIndex={1}  >
                     <img src={HG} width="100%" height="auto" alt="picture about me" title="me" loading="eager" />
 
-                    <Grid item xs={12} textAlign="center" mt={2} >
+                    <Grid item xs={12} textAlign="center">
                         <Button className="btncolor" color="secondary" variant="contained" size="large" >Download CV</Button>
                     </Grid>
 

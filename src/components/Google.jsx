@@ -17,6 +17,10 @@ const Google = () => {
     const GoogleData = [{ letter: "G", color: "#4285f4" }, { letter: "o", color: "#ea4436" },
     { letter: "o", color: "#fbbc05" }, { letter: "g", color: "#4285f4" }, { letter: "l", color: "#34a853" }, { letter: "e", color: "#ea4336" }]
 
+    const SoftSkills = [{ soft: "Conflict Management" }, { soft: "Accountability" }, { soft: "Decision Making" }, { soft: "Adaptability" },
+    { soft: "Learning Agility" }, { soft: "Active Listening" }]
+
+
     return (
         <ThemeProvider theme={theme}>
             <Grid container justifyContent="center" display="flex" sx={{ background: "#f9f9f9" }} borderRadius={3} pb={5} >
@@ -100,18 +104,14 @@ const Google = () => {
                     </Grid>
                 </Grid>
 
-                <Grid container xs={6} item={true} display="flex" justifyContent="center" alignItems="center" border={1} borderColor="#E5E4E2" borderRadius={3}>
+                <Grid container xs={6} item={true} display="flex" flexDirection="column" justifyContent="space-evenly" alignItems="center" border={1} borderColor="#E5E4E2" borderRadius={3}>
 
-                    <Grid item xs={12} p={1} mt={1} display="flex" alignItems="center">
-
-                        <Typography variant="h4" ml={2}>
-                            Conflict Management
-                            Accountability
-                            Decision Making
-                            Adaptability
-
+                    {SoftSkills.map((info, index) => (
+                        <Typography variant="h4" key={index}>
+                            {info.soft}
                         </Typography>
-                    </Grid>
+                    ))}
+
                 </Grid>
 
             </Grid>
