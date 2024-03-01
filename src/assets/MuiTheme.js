@@ -14,10 +14,10 @@ const theme = createTheme({
 
     typography: {
         h1: {
-            fontSize: "calc(1.9em + 1.9vw)",
+            fontSize: "calc(2em + 2vw)",
         },
         h2: {
-            fontSize: "calc(1.3em + 1.3vw)",
+            fontSize: "calc(1.4em + 1.4vw)",
         },
         h3: {
             fontSize: "calc(1em + 1vw)",
@@ -26,7 +26,7 @@ const theme = createTheme({
             fontSize: "calc(0.9em + 0.8vw)",
         },
         h5: {
-            fontSize: "calc(0.6em + 0.6vw)"
+            fontSize: "calc(0.8em + 0.8vw)"
         },
         h6: {
             fontSize: "calc(0.6em + 0.5vw)",

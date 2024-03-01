@@ -34,12 +34,12 @@ const NavBar = () => {
                         {
                             names.map((data, index) => (
                                 <Button key={index}> <HashLink smooth to={`#${data.direction}`} onClick={() => drawerStatus(false)} >
-                                    <Typography variant="h5" color="primary" fontWeight={500} p={2} textTransform="capitalize" >{data.direction}</Typography>
+                                    <Typography variant="h5" color="primary" fontWeight={500} p={1} textTransform="capitalize" >{data.direction}</Typography>
                                 </HashLink></Button>
                             ))
                         }
 
-                        <Box display="flex" alignItems="center" justifyContent="space-between" mt={2} flexDirection="column">
+                        <Box display="flex" alignItems="center" justifyContent="space-between" mt={1} flexDirection="column">
 
                             <Box mb={3}>
                                 <Link href="https://www.linkedin.com/in/horaciogarcia/" target="_blank" color="#000000" ><LinkedInIcon fontSize='large' /></Link>

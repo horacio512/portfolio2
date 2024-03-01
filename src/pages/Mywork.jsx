@@ -13,14 +13,14 @@ const Mywork = () => {
 
     const info = [{
         name: logo1, yt: "https://www.youtube.com/embed/RUwC0CJFmJY?si=7cc88kw8nBgVLLeV", github: "https://github.com/horacio512/toque-dulce", live: "https://toquedulce.com",
-        descr: "Responsive site for a small local family business. ", tech: "React- Vite - MaterialUI - ReactRouter - EmailJS - Hostinger"
+        descr: "Responsive site for a small local family business. ", tech: "React - Vite - MaterialUI - React Router - EmailJS - Hostinger - JSON Storage"
     }, {
-        name: logo2, yt: "https://www.youtube.com/embed/iXD_PF_tMQY?si=Jx2aroXQ7i0iapWB",github: "https://github.com/horacio512/velasviendo", live: "https://github.com/horacio512/velasviendo", descr: "Shopping web for candles, with fully functional cart.",
-        tech: "React - MaterialUI - ReactRouter - ReactHelmet - Firebase"
+        name: logo2, yt: "https://www.youtube.com/embed/iXD_PF_tMQY?si=Jx2aroXQ7i0iapWB", github: "https://github.com/horacio512/velasviendo", live: "https://github.com/horacio512/velasviendo", descr: "Shopping web for candles, with fully functional cart.",
+        tech: "React - Npm - MaterialUI - React Router - React Helmet - Firebase - Local Storage "
     }
         , {
         name: logo3, yt: "https://www.youtube.com/embed/h1HKIVzu-oY?si=K420kTWF_lUuyRRK", github: "https://github.com/horacio512/meal-app", live: "https://horacio512.github.io/meal-app/",
-        descr: "App to make your own daily diet, conntected to the Spoonacular API", tech: "React - Vite - MaterialUI - ReactRouter - EmailJS"
+        descr: "App to make your own daily diet, conntected to the Spoonacular API", tech: "React - Vite - Api Management - MaterialUI - ReactRouter - EmailJS"
     }
     ]
 
@@ -51,7 +51,7 @@ const Mywork = () => {
 
                                 < Grid container item={true} xs={12} sm={5} key={index} onMouseEnter={() => { over(index) }} onMouseLeave={() => { leave() }}
                                     display="flex" justifyContent="space-evenly" alignContent="center"
-                                    mt={2} mb={1} border={1} borderRadius="2%" borderColor="#4831d4">
+                                    mt={1} mb={1} border={1} borderRadius="2%" borderColor="#4831d4">
 
 
                                     <Grid item xs={12} display="flex" justifyContent="center" alignItems="center" mb={2}>
@@ -80,8 +80,6 @@ const Mywork = () => {
                                         <Typography variant="h5" fontWeight={500} color="primary">{data.descr}</Typography>
                                     </Grid>
                                 </Grid>
-
-
 
                             ))
                         }

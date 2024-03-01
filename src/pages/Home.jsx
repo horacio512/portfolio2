@@ -44,7 +44,7 @@ const Home = () => {
                     </Grid>
 
                     <Grid item xs={12} textAlign="center">
-                        <Button className="btncolor" color="secondary" variant="contained" size="large" >Download CV</Button>
+                        <Button className="btncolor" color="secondary" sx={{fontSize:"calc(0.8em + 0.5vw)"}} variant="contained" size="large" >Download CV</Button>
                     </Grid>
 
                 </Grid>
