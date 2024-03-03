@@ -11,7 +11,7 @@ const Studies = () => {
             <Grid container id="studies" alignContent="space-evenly" pt={4} sx={{ justifyContent: { xs: "center", sm: "space-evenly" }, backgroundColor: "#4831d4" }} >
 
                 <Grid item xs={11} sm={10} display="flex" flexWrap="wrap" justifyContent="space-evenly" mt={5} mb={5}>
-                    <Grid item xs={12} sm={10} md={4}>
+                    <Grid item xs={12} sm={10} >
                         <Typography variant="h1" fontWeight={800} mb={3} color="secondary">
                             Over the years.
                         </Typography>
@@ -30,7 +30,7 @@ const Studies = () => {
                     </Grid>
 
 
-                    <Grid item xs={12} md={8} >
+                    <Grid item xs={12} md={10} >
                         <Google />
                     </Grid>
 

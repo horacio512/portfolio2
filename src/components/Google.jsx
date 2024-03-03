@@ -45,7 +45,7 @@ const Google = () => {
                 </Grid>
 
 
-                <Grid item xs={12} md={11} border={1} borderColor="#E5E4E2" borderRadius={3} display="flex" justifyContent="space-around" alignItems="center" p={1.5} mt={1}>
+                <Grid item xs={12} md={11} border={1} borderColor="#E5E4E2" borderRadius={3} display="flex" justifyContent="space-around" p={1.5} mt={1}>
 
                     <Grid item xs={4} display="flex" justifyContent="space-evenly">
                         <SearchIcon />
